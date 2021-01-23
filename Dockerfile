@@ -35,5 +35,6 @@ ADD domap.sh /usr/src/app/domap.sh
 RUN chmod 0755 domap.sh
 #WORKDIR /
 #RUN ./domap.sh
+RUN p = $PORT
 CMD [ "./domap.sh" ]
 #CMD [ "python", "./domap.sh" ]
