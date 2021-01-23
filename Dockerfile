@@ -1,7 +1,7 @@
 FROM python:2.7.18
 
 
-ENV PORT 8080
+#ENV PORT 8080
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 COPY . /usr/src/app
