@@ -1,0 +1,3 @@
+pyproj==1.9.6
+Pillow
+MapProxy==1.13.0
