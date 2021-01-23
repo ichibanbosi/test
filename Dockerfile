@@ -1,7 +1,7 @@
 FROM python:2.7.18
 
 
-#ENV PORT 8080
+ENV P $PORT
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 COPY . /usr/src/app
@@ -35,6 +35,5 @@ ADD domap.sh /usr/src/app/domap.sh
 RUN chmod 0755 domap.sh
 #WORKDIR /
 #RUN ./domap.sh
-RUN p = $PORT
 CMD [ "./domap.sh" ]
 #CMD [ "python", "./domap.sh" ]
