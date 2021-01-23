@@ -1,7 +1,7 @@
 FROM python:2.7.18
 
 
-ENV P $PORT
+#ENV  $PORT
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 COPY . /usr/src/app
